@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - NMSM Government College</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+body{
+    background:#f4f4f4;
+}
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+nav{
+    margin-top:15px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+	padding:8PX 12PX;
+	transition:0.3s;
+}
+nav a:hover{
+    background:#f4b400;
+    color:black;
+    border-radius:5px;
+}
+.contact-container{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    width:90%;
+    margin:30px auto;
+}
+.contact-info{
+    width:60%;
+    background:white;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+.contact-info h2{
+    color:#003366;
+    margin-bottom:15px;
+}
+.contact-info p{
+    margin-bottom:18px;
+    line-height:1.8;
+}
+.help-form{
+    width:35%;
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+.help-form h2{
+    text-align:center;
+    color:#003366;
+    margin-bottom:15px;
+}
+.help-form input,
+.help-form select{
+    width:100%;
+    padding:10px;
+    margin-bottom:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+.help-form input[type=submit]{
+    background:#003366;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+.help-form input[type=submit]:hover{
+    background:#0055aa;
+}
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+@media(max-width:768px){
+.contact-container{
+    flex-direction:column;
+}
+.contact-info,
+.help-form{
+    width:100%;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>NMSM Government College, Kalpetta</h1>
+<p>Accredited with A grade by NAC 
+	and Affiliated to the University of Calicut</p>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="departments.html">Departments</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+<div class="contact-container">
+<div class="contact-info">
+<h2>Contact Information</h2>
+<p>
+<strong>Address</strong><br>
+Neelikandy Moideen Sahib Memorial (nmsm)<br>
+Government College <br>
+Puzhamudi P.O., Kalpetta<br>
+Wayanad District- 673 122
+
+</p>
+<p>
+<strong>Email</strong><br>
+nmsmgck@gmail.com
+</p>
+<p>
+<strong> Office Phone</strong><br>
+04936204569
+
+</p>
+</div>
+<div class="help-form">
+<h2>Admission Help Desk</h2>
+<p>We will Contact you through whatsapp<br>
+fill form</p>
+<form>
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+<input type="tel" placeholder="Phone Number" required>
+<select required>
+<option value="">Course </option>
+<option>UG</option>
+<option>PG</option>
+</select>
+<select required>
+<option value="">Select Course</option>
+<option>B.Sc Computer Science (Hons.)</option>
+<option>B.Com</option>
+<option>B.A History</option>
+<option>B.A Economics</option>
+<option>MA Economics</option>
+<option>Bsc chemistry</option>
+<option>MA Journalism</option>
+<option>M.Com</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+</div>
+</div>
+<footer>
+<p>&copy; 2026 NMSM Government College, Kalpetta</p>
+</footer>
+</body>
+</html>
